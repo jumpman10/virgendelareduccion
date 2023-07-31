@@ -82,3 +82,9 @@
   border: 1px solid black;
   border-radius: 25px;
 }
+.body-content{
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  border-bottom: 1px solid black;
+}

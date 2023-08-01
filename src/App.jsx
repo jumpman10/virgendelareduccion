@@ -12,17 +12,26 @@ function App() {
           <h1>Virgen del Valle de La Reducción</h1>
         </div>
         <div className='section'>
-          <div className='item-section-text'><a>La Historia del Hallazgo</a></div>
-          <div className='item-section-text'><a>Museo Virtual</a></div>
-          <div className='item-section-text'><a>La misión en el Santuario</a></div>
-          <div className='item-section-text'><a>Fiesta del 8 de Diciembre</a></div>
+          <a className='item-section-text' href='#lahistoria'>La Historia del Hallazgo</a>
+          <a className='item-section-text' href='#museo'>Museo Virtual</a>
+          <a className='item-section-text' href='#santuario'>La misión en el Santuario</a>
+          <a className='item-section-text' href='#fiesta'>Fiesta del 8 de Diciembre</a>
         </div>
       </div>
-      <div className='body-content'>
-      </div>
-      <div className='body-content'>
-      </div>
-      <div className='body-content'>
+      <section className='body-content' id='lahistoria'>
+        <h2>La Historia del Hallazgo</h2>
+      </section>
+      <section className='body-content' id='museo'>
+        <h2>Museo Virtual</h2>
+      </section>
+      <section className='body-content' id='santuario'>
+        <h2>La misión en el Santuario</h2>
+      </section>
+      <section className='body-content' id='fiesta'>
+        <h2>Fiesta del 8 de Diciembre</h2>
+      </section>
+      <div className='footer'>
+
       </div>
     </div>
   )

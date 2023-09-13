@@ -9,6 +9,7 @@ import oracion from './assets/reza/2.png'
 import cancion from './assets/reza/3.png'
 import rosario from './assets/reza/4.png'
 import logo1 from './assets/logo1.png'
+import historia from './assets/historia.mp3'
 function App() {
 
   return (
@@ -32,6 +33,14 @@ function App() {
         </div>
        
       </div>
+      <section className='historia' id='peregrina'>
+        <h2>Historia del Hallazgo</h2>
+        <h3 className='text-subs'>Conocé la Milagrosa Historia del Hallazgo de la Sagrada Imagen de la Virgen del Valle de La Reducción. </h3>
+        <audio controls>
+        <source src={historia} type="audio/mpeg" />
+        Tu navegador no admite la reproducción de audio.
+      </audio>
+      </section>
       <section className='peregrina' id='peregrina'>
       <div>
       <h2>Peregriná a la Casa de María</h2>

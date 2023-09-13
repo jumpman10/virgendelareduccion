@@ -14,6 +14,10 @@ function App() {
   return (
     <div>
       <div className='header'>
+        <a className='header-text' href='#reza'>Rezá a la Virgen</a>
+        <a className='header-text' href='#peregrina'>Peregriná a la Casa de María</a>
+        <a className='header-text' href='#veni'>Vení a La Reducción</a>
+        <a className='header-text' href='#colabora'>Colaborá con el Santuario</a>
       </div>
       <div className='body-content'>
         <div className='portada'>
@@ -28,7 +32,7 @@ function App() {
         </div>
        
       </div>
-      <section className='peregrina' id='lahistoria'>
+      <section className='peregrina' id='peregrina'>
       <div>
       <h2>Peregriná a la Casa de María</h2>
     </div>
@@ -41,8 +45,10 @@ function App() {
       ))}
     </Carousel>
       </section>
-      <section className='reza-content' id='santuario'>
+      <section className='reza-content' id='reza'>
+      <div className='margin'>
       <h2>Rezá a la Virgen</h2>
+      </div>
         <div className='reza-container'>
           <div className='reza-text-div'>
             <h3 className='reza-text'>- Oración</h3>
@@ -164,7 +170,7 @@ function App() {
     </div>
       </section>
       </section>
-      <section className='veni-content' id='museo'>
+      <section className='veni-content' id='veni'>
         <div className='text-sections'> 
           <h2>Vení a La Reducción</h2>
           <h3 className='text-subs'>Te invitamos a visitar el hermoso Santuario dedicado a la Madre de Dios que hace 100 años bajó del cielo en la pequeña localidad de La Reducción, 
@@ -184,7 +190,7 @@ function App() {
       ))}
     </Carousel>
       </section>
-      <section className="colabora">
+      <section className="colabora" id='colabora'>
         <h2>Colaborá con el Santuario</h2><br/>
         <h3 className="colabora-text">Si quiere realizar alguna donación puede hacerlo a la cuenta del Banco Macro </h3><br/>
         <h3 className="colabora-text">Nro de cuenta: 4-6170952957393-2</h3><br/>
